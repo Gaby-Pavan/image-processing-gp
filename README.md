@@ -1,27 +1,35 @@
-# package_name
+# image-processing-gp
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package image-processing-gp is used to:
+	Processing module:
+	- Histogram matching
+	- Structural similarity
+	- Resize image
+	Utils:
+	- Read image
+	- Save image
+	- Plot image
+	- Plot results
+	- Plot histograms
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install package_name
+pip install image-processing-gp
 ```
 
 ## Usage
 
 ```python
-from package_name.module1_name import file1_name
-file1_name.my_function()
+from image-processing-gp.processing import combination
+combination.my_function()
 ```
 
 ## Author
-My_name
+Gabrielly-Pavan
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
