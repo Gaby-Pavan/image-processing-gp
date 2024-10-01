@@ -7,15 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="image-processing-gp",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Gaby-Pavan",
+    author_email="gabriellypavan@gmail.com",
+    description="Package for image processing",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/Gaby-Pavan/image-processing-gp.git",
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.8',
 )
